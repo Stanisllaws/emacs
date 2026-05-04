@@ -6,7 +6,7 @@ for all informatione about Meow please chech there github page :
 
 
 
-Changelog]] - Changes, releases, and news
+
 
 * License
 

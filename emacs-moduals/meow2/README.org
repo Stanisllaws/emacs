@@ -3,13 +3,13 @@
 for all informatione about Meow plase chech there github page :
 [[https://github.com/meow-edit/meow.git]]
 
-** I make copy for my own use snce it is GNU General Public License v3.0
-* for more information about GNU GPL v3.0
-[[https://github.com/meow-edit/meow/blob/master/LICENSE]]
-[[file:CHANGELOG.md][
+
+
 
 Changelog]] - Changes, releases, and news
 
 * License
 
-Licensed under GPLv3.
+** Licensed under GPLv3.
+
+https://github.com/meow-edit/meow/blob/master/LICENSE

@@ -1,4 +1,4 @@
-(add-to-list 'load-path "~/.emacs.d/emacs-moduals/meow") 
+(add-to-list 'load-path "~/.emacs.d/emacs-moduals/meow2") 
 ;;<define your meow-setup>
 (require 'meow)
 ;;(meow-setup)

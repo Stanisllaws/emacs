@@ -1,6 +1,6 @@
 #+title: Meow
  I am not the authore of Meow
-for all informatione about Meow and author informations please chech there github page :
+for all informatione about Meow and authors, contributors informations please chech there github page :
 [[https://github.com/meow-edit/meow.git]]
 
 

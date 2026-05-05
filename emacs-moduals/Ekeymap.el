@@ -58,3 +58,4 @@
 (define-key magit-mode-map (kbd "M-p") 'magit-push)
 
 )
+;;

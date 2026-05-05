@@ -50,12 +50,4 @@
   )
 
 
-;; MAGIT KEY BINDS
-(with-eval-after-load 'magit
-(define-key magit-mode-map (kbd "M-s") 'magit-stage)   
-(define-key magit-mode-map (kbd "M-m") 'magit-commit)
-(define-key magit-mode-map (kbd "M-u") 'magit-pull)
-(define-key magit-mode-map (kbd "M-p") 'magit-push)
 
-)
-;;

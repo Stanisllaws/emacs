@@ -45,9 +45,16 @@
 (with-eval-after-load 'meow
   (define-key meow-keypad-state-keymap "B" #'ibuffer)
   (define-key meow-keypad-state-keymap "K" #'kill-buffer)
+  (define-key meow-keypad-state-keymap "g" #'magit-status)
   ;;(define-key meow-keypad-state-keymap ":" #'meow-normal-state)
   )
 
 
+;; MAGIT KEY BINDS
+(with-eval-after-load 'magit
+(define-key magit-mode-map (kbd "M-s") 'magit-stage)   
+(define-key magit-mode-map (kbd "M-m") 'magit-commit)
+(define-key magit-mode-map (kbd "M-u") 'magit-pull)
+(define-key magit-mode-map (kbd "M-p") 'magit-push)
 
-
+)

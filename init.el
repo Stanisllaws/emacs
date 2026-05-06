@@ -7,8 +7,7 @@
 (load "~/.emacs.d/emacs-moduals/Ekeymap.el")
 (load "~/.emacs.d/emacs-moduals/Escripts.el")
 (load "~/.emacs.d/emacs-moduals/text-tools.el")
- 
-	
+ (load "~/.emacs.d/emacs-moduals/buffer-to-pdf/buffer-to-pdf.el") 	
 
 
 ;;; -*- lexical-binding: t 
@@ -68,9 +67,10 @@
 
 ;; Optional: keep multiple backup versions
 (setq delete-old-versions t)
-(setq kept-new-versions 10)
-(setq kept-old-versions 5)
+(setq kept-new-versions 40)
+(setq kept-old-versions 40)
 (setq version-control t)
+
 
 
 

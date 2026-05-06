@@ -1,6 +1,6 @@
 ** Cradits and Sources
 
-* This packge was created by Protesilaos 
+* This package was created by Protesilaos 
   Linke to the source github page
   [[https://github.com/protesilaos/buffer-to-pdf]]
 

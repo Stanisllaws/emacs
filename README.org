@@ -8,3 +8,4 @@ git clone [[https://github.com/Stanisllaws/emacs.git]]
 ** 3. M-x load files
 //Alt + x load files //
 ** or restart emacs
+

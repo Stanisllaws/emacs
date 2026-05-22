@@ -18,9 +18,11 @@
 (global-set-key (kbd "M-l") ' meow-right)
 (global-set-key (kbd "C-c R") ' recover-session)
 (global-set-key (kbd "C-c c g") ' magit-status)
-
-
+(global-set-key (kbd "C-c F")' make-directory)
+(global-set-key (kbd "C-c y d")' copy-directory)
+(global-set-key (kbd "C-c y f")' copy-file)
 ;; (meow-normal-definde-key
+
 ;; '(global-set-key (kbd "M-l") ' meow-right))
 
 ;; NORMAL MODE KEYS (with Meow)
@@ -46,7 +48,7 @@
   (define-key meow-keypad-state-keymap "B" #'ibuffer)
   (define-key meow-keypad-state-keymap "K" #'kill-buffer)
   (define-key meow-keypad-state-keymap "g" #'magit-status)
-  (define-key meow-keypad-state-keymap "o" #'sly-mrepl-clear-repl)
+  (define-key meow-keypad-state-keymap "L" #'sly-mrepl-clear-repl)
   ;;(define-key meow-keypad-state-keymap ":" #'meow-normal-state)
   )
 

@@ -1,4 +1,4 @@
-;;
+;;conetions
 
 ;; Import
 (load "~/.emacs.d/emacs-moduals/nix-commands.el")

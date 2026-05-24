@@ -1,4 +1,4 @@
-;;conetions
+
 
 ;; Import
 (load "~/.emacs.d/emacs-moduals/nix-commands.el")
@@ -6,7 +6,7 @@
 (load "~/.emacs.d/emacs-moduals/meow.el") 
 (load "~/.emacs.d/emacs-moduals/Ekeymap.el")
 (load "~/.emacs.d/emacs-moduals/Escripts.el")
-(load "~/.emacs.d/emacs-moduals/text-tools.el")
+;;(load "~/.emacs.d/emacs-moduals/text-tools.el")
  (load "~/.emacs.d/emacs-moduals/buffer-to-pdf/buffer-to-pdf.el") 	
 
 

@@ -8,7 +8,7 @@
 (load "~/.emacs.d/emacs-moduals/Escripts.el")
 (load "~/.emacs.d/emacs-moduals/text-tools.el")
 ;;(load "~/.emacs.d/emacs-moduals/buffer-to-pdf.el") 
-(load "~/.emacs.d/emacs-moduals/buffer-to-pdf/pkg-buffer-to-pdf.el") 	
+;;(load "~/.emacs.d/emacs-moduals/buffer-to-pdf/pkg-buffer-to-pdf.el") 	
 
 
 ;;; -*- lexical-binding: t 
@@ -144,3 +144,17 @@
 
 (use-package org-mode
   :ensure t) 
+
+
+;; buffer to pdf
+;; pkg under GPLv3
+(use-package buffer-to-pdf
+  :ensure nil
+  :init
+  ;; Then upgrade it with the command `package-vc-upgrade' or `package-vc-upgrade-all'.
+  (unless (package-installed-p 'buffer-to-pdf)
+    (package-vc-install "https://github.com/protesilaos/buffer-to-pdf.git"))
+  :config
+  ;; Configure `buffer-to-pdf-directory' to specify where PDF files are stored.
+  ;; This is the default value:
+  (setq buffer-to-pdf-directory (expand-file-name "~/")))

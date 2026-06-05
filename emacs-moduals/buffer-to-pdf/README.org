@@ -1,6 +1,6 @@
 *************** Change notes 
  Now insted of having a copy of the source code I add a modual that install form souce githube.
-_This the modual that install the package form maintainer_
+_This the modual that install the package form maintainer it is in init.el_
 
 #+begin_src
 (use-package buffer-to-pdf

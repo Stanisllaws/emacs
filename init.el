@@ -11,6 +11,15 @@
 ;;(load "~/.emacs.d/emacs-moduals/buffer-to-pdf/pkg-buffer-to-pdf.el") 	
 
 
+
+;;THE PACKAGE REQUIRED MELPA IF IT NOT INSTALL UNCOMMANT 
+;;(reguire 'package)
+;;(add-to-list 'package-archives '("melpa-stable" . "htpps://stable.melpa.org/packages/") t)
+
+
+
+
+
 ;;; -*- lexical-binding: t 
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
@@ -158,3 +167,4 @@
   ;; Configure `buffer-to-pdf-directory' to specify where PDF files are stored.
   ;; This is the default value:
   (setq buffer-to-pdf-directory (expand-file-name "~/")))
+

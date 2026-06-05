@@ -1,3 +1,5 @@
+;; This are add some of my keybindings
+
 (add-to-list 'load-path "~/.emacs.d/emacs-moduals/meow") 
 ;;<define your meow-setup>
 (require 'meow)

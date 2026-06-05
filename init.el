@@ -6,8 +6,9 @@
 (load "~/.emacs.d/emacs-moduals/meow.el") 
 (load "~/.emacs.d/emacs-moduals/Ekeymap.el")
 (load "~/.emacs.d/emacs-moduals/Escripts.el")
-;;(load "~/.emacs.d/emacs-moduals/text-tools.el")
- (load "~/.emacs.d/emacs-moduals/buffer-to-pdf/buffer-to-pdf.el") 	
+(load "~/.emacs.d/emacs-moduals/text-tools.el")
+;;(load "~/.emacs.d/emacs-moduals/buffer-to-pdf.el") 
+(load "~/.emacs.d/emacs-moduals/buffer-to-pdf/pkg-buffer-to-pdf.el") 	
 
 
 ;;; -*- lexical-binding: t 
@@ -16,8 +17,17 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+ '(auth-source-save-behavior nil)
  '(custom-enabled-themes '(modus-vivendi-tinted))
- '(package-selected-packages '(tree-sitter-langs vterm)))
+ '(custom-safe-themes
+   '("3ea6a13b8119d69238e9651c05092d4491816b4d8066481e84e36901b6542089"
+     default))
+ '(package-selected-packages
+   '(buffer-to-pdf nix-mode org-mode sly solarized-theme spacemacs-theme
+		   tangotango-theme tree-sitter-langs vterm))
+ '(package-vc-selected-packages
+   '((buffer-to-pdf :vc-backend Git :url
+		    "https://github.com/protesilaos/buffer-to-pdf.git"))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -121,3 +131,16 @@
 
 
 (put 'dired-find-alternate-file 'disabled nil)
+
+;; Set sort Dired
+;;(setq dired-listing-switches"-alh --group-directories-first-A")
+
+;; Theme back ground
+(load-theme 'solarized-wombat-dark t)
+
+;;Nix colore code
+(use-package nix-mode
+  :ensure t)
+
+(use-package org-mode
+  :ensure t) 

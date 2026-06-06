@@ -3,4 +3,23 @@ emacs-moduals/org-to-pdf
 #
 .
 
- .#README.org 
+ .#README.org
+
+# -*- mode: gitignore; -*-
+*~
+\#*#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.#*
+auto-save-list
+%backup%~
+eshell
+file-emacs-backup
+history
+recentf
+transient
+tutorial
+url

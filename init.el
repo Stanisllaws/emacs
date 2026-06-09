@@ -71,24 +71,24 @@
 ;; No sroll bar
  (scroll-bar-mode -1)
 
-;; # BACK UPS
+;; # BACKUPS
 
 ;; Create backup directory if it doesn't exist
 ;; (make-directory "~/.emacs.d/files-emacs-backup" t)
 
 ;; Store all backup files in one directory
-(setq backup-directory-alist
-      '(("." . "~/.emacs.d/files-emacs-backup")))
+;;(setq backup-directory-alist                      
+  ;;    '(("." . "~/.emacs.d/files-emacs-backup")))
 
 ;; Store all autosave files in one directory
-(setq auto-save-file-name-transforms
-      '((".*" "~/.emacs.d/files-emacs-backup/" t)))
+;;(setq auto-save-file-name-transforms
+  ;;    '((".*" "~/.emacs.d/files-emacs-backup/" t)))
 
 ;; Optional: keep multiple backup versions
-(setq delete-old-versions t)
-(setq kept-new-versions 40)
-(setq kept-old-versions 40)
-(setq version-control t)
+;; (setq delete-old-versions t)
+;; (setq kept-new-versions 40)
+;; (setq kept-old-versions 40)
+;; (setq version-control t)
 
 
 
@@ -151,8 +151,7 @@
 (use-package nix-mode
   :ensure t)
 
-(use-package org-mode
-  :ensure t) 
+(org-mode) 
 
 
 ;; buffer to pdf
